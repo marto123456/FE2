@@ -1,0 +1,138 @@
+.body{
+    margin: 0;
+    
+}
+
+.nav-container{
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+}
+.nav-logo{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list-container{
+    display: flex;
+    flex:2;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+.nav-list-container li a{
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 20px;
+    color: white;
+}
+.nav-list-container li a:hover{
+    text-decoration: underline;
+    
+}
+.nav-button{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: auto;
+    justify-content: center;
+    align-tracks: center;
+}
+
+.nav-button button{
+    margin: 10px 10px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border: solid black 2px;
+    font-size: 20px;
+}
+
+
+/* Banner segment */
+.banner-area{
+    display: flex;
+    padding: 70px 70px;
+}
+
+.main-banner{
+    display: flex;
+    flex: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.main-banner img{
+    width: 70%;
+}
+.advert-area{
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.advert-area img{
+    width: 70%;
+}
+
+/* The service section code */
+.services-area{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 60px;
+    background-color: black;
+}
+
+.all-services{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.single-service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: azure;
+    padding-bottom: 30px;
+}
+
+.single-service img{
+    width: 100%;
+}
+.single-service p{
+    margin: 5px 20px;
+    font-size: 18px;
+    
+}
+.single-service button{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 10px 25px;
+    margin-top: 25px;
+}
+
+/* call to action */
+.call-to-action{
+    background-color: blueviolet;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action h2{
+    font-size: 56px;
+    display: flex;
+    flex-direction: column;
+}
+.call-to-action button{
+    background-color: wheat;
+}
+
+
